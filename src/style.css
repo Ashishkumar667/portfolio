@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #be4eeb;
 }
 
 .purple {
@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.6em !important;
+  width: 5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -260,6 +260,7 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire section */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -563,6 +564,7 @@ button:focus {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
