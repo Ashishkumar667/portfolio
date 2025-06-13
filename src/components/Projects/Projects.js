@@ -39,7 +39,7 @@ function Projects() {
               title="My dynamic Portfolio "
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink="https://github.com/Ashishkumar667/portfolio"
-              demoLink="https://portfolio-ashish.vercel.app/"
+              demoLink="https://portfolio-ashish-azure.vercel.app/"
             />
           </Col>
 
