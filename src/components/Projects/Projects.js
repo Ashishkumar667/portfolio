@@ -27,8 +27,7 @@ function Projects() {
               imgPath={GetStocks}
               isBlog={false}
               title="GetStocks"
-              description="GetStocks is a web application that provides real-time stock market data and analysis. It allows users to search for stocks, view their current prices, historical data, and performance metrics. The app also offers features like watchlists, stock comparisons, and news updates to help users make informed investment decisions."
-              //ghLink="https://github.com/soumyajit4419/GetStocks"
+              description="GetStocks is a web application that provides real-time stock market data and analysis. It allows users to search for stocks, view their current prices, historical data, and performance metrics. The app also offers features like watchlists, stock comparisons, and news updates to help users make informed investment decisions.
               demoLink="https://getstocks.ai"
             />
           </Col>
