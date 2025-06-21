@@ -8,6 +8,7 @@ import Particle from "../Particle";
 import GetStocks from "../../Assets/Projects/GetStocks.png";
 import Holistay from "../../Assets/Projects/holistay.png";
 import Portfolio_Ashish from "../../Assets/Projects/Portfolio.png";
+import resume_tailor from "../../Assets/Projects/resume_tailor.png";
 
 function Projects() {
   return (
@@ -31,19 +32,20 @@ function Projects() {
               demoLink="https://getstocks.ai"
             />
           </Col>
+           
 
-          <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Portfolio_Ashish}
+              imgPath={resume_tailor}
               isBlog={false}
-              title="My dynamic Portfolio "
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/Ashishkumar667/portfolio"
-              demoLink="https://portfolio-ashish.vercel.app/"
+              title="Resume Analyser - An AI powered Resume Optimizer"
+              description="Resume & Job Description Analyzer is an AI-powered web application that helps job seekers optimize their resumes for specific roles. Users can upload their resume and input a job description, and the system provides a detailed compatibility analysis—including a match score, key strengths, missing keywords, and personalized improvement suggestions. Built with React.js, Node.js, and OpenAI's GPT-4.Reduced resume optimization time by 70% for users"
+              ghLink="https://github.com/Ashishkumar667/resume_tailoring"
+              demoLink="https://resume-tailoring-ashish.vercel.app/" 
             />
           </Col>
 
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Holistay}
@@ -55,6 +57,16 @@ function Projects() {
             />
           </Col>
 
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio_Ashish}
+              isBlog={false}
+              title="My dynamic Portfolio "
+              description="My personal Dynamic portfolio, where I have worked on reactjs.I have also implemented good animation ."
+              ghLink="https://github.com/Ashishkumar667/portfolio"
+              demoLink="https://portfolio-ashish.vercel.app/"
+            />
+          </Col>
           
         </Row>
       </Container>
