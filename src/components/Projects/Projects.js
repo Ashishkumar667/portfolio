@@ -27,7 +27,7 @@ function Projects() {
               imgPath={GetStocks}
               isBlog={false}
               title="GetStocks"
-              description="GetStocks is a web application that provides real-time stock market data and analysis. It allows users to search for stocks, view their current prices, historical data, and performance metrics. The app also offers features like watchlists, stock comparisons, and news updates to help users make informed investment decisions.
+              description="GetStocks is a web application that provides real-time stock market data and analysis. It allows users to search for stocks, view their current prices, historical data, and performance metrics. The app also offers features like watchlists, stock comparisons, and news updates to help users make informed investment decisions."
               demoLink="https://getstocks.ai"
             />
           </Col>
@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={resume_tailor}
               isBlog={false}
-              title="Resume Analyser - An AI powered Resume Optimizer"
+              title="Resume Analyser- An AI powered Resume Optimizer"
               description="Resume & Job Description Analyzer is an AI-powered web application that helps job seekers optimize their resumes for specific roles. Users can upload their resume and input a job description, and the system provides a detailed compatibility analysis—including a match score, key strengths, missing keywords, and personalized improvement suggestions. Built with React.js, Node.js, and OpenAI's GPT-4.Reduced resume optimization time by 70% for users"
               ghLink="https://github.com/Ashishkumar667/resume_tailoring"
               demoLink="https://resume-tailoring-ashish.vercel.app/" 
